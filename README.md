@@ -1,6 +1,11 @@
 # Chrome-Package-Handler
 chrome抓包解析工具
 
+### 描述
+- 目前chrome只能到处har格式的文件
+- 本项目通过解析har包，变成需要的内容
+- 通过请求的url 在result(默认文件夹)下生成对应的文件
+- 文件内容就是url,header,response
 
 ### ENV
 - python2.7 +
