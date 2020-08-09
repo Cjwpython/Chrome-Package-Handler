@@ -35,4 +35,12 @@ python handler.py -c url -s <你想保存文件的文件夹名称>
 ```
 
 ### 演示
-![avatar](images/03.gif)
+#![avatar](images/03.gif)
+
+- 收集到的har文件可以放在项目的urls文件夹中，也可以在命令行指定读取那个文件夹，注意是文件夹路径，不是文件路径
+- 会自动从指定的文件夹下搜寻har包
+- 会在result文件夹在生成解析har包的内容
+- 保存的文件是请求的url(不保存协议头，和请求参数)
+- 每个文件内容是一个json
+- json第一层是请求的url全路径
+- json的第二层是自定义收集的内容--> url /request /response
