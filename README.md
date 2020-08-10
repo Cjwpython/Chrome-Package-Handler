@@ -6,6 +6,7 @@ chrome抓包解析工具
 - 本项目通过解析har包，变成需要的内容
 - 通过请求的url 在result(默认文件夹)下生成对应的文件
 - 文件内容就是url,header,response
+- 程序运行前删除项目中的urls/result文件夹中的所有文件(演示的demo)
 
 ### ENV
 - python2.7 +
